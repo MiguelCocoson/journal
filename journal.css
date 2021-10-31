@@ -1,0 +1,101 @@
+body{
+    font-family: "Syne Mono", monospace;
+}
+
+header {
+    background-color: #46a0b6;
+    margin-bottom: 3%;
+    padding: 1%;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main {
+    background-color: #466fb6;
+    padding: 5%;
+    border-radius: 30px;
+}
+
+ul{
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 3%;
+    padding: 30px;
+    background: white;
+    font-size: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+li span{
+    display: block;
+}
+
+li span:nth-child(1){
+    font-size: 30px;
+}
+
+li span:nth-child(2){
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+li div{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #fb4d4d;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+form input{
+    font-family: "Syne Mono", monospace;
+    float: left;
+    width: 50%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#entry {
+    margin-top: 3%;
+    padding: 30px;
+    width: 90%;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: -20%;
+}
+
+button{
+    margin: 3%;
+    border: 0;
+    background: rgb(231, 209, 12);
+    padding: 15px;
+    width: 15%;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    
+}

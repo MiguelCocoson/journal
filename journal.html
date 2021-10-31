@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Log In</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="journal.css">
+    </head>
+    
+    <body style = "background: url(https://kartinkin.net/uploads/posts/2021-01/1611017924_13-p-fon-potertaya-bumaga-19.jpg);">
+        <div id="content">
+            <header>
+                <h1>JOURNAL</h1>
+            </header>
+            <main>
+            <form id="add-entry">
+                <input type="text" name="date" placeholder="Date of Entry (Ex. 29/01/2000)">
+                <textarea type="text" id="entry" name="entry" placeholder="Journal Entry"></textarea>
+                <button>Add Entry</button>
+            </form>
+
+            <ul id="entry-list"></ul>
+            </main>
+        </div>
+
+        <script>
+            var config = {
+                apiKey: "AIzaSyBziL2FJ2KaYzaeS6VAAorwGRCw7AqKssQ",
+                authDomain: "journal-69ab0.firebaseapp.com",
+                projectId: "journal-69ab0",
+                storageBucket: "journal-69ab0.appspot.com",
+                messagingSenderId: "1098434262101",
+                appId: "1:1098434262101:web:6453b6b2658b75f37dd0dc",
+                measurementId: "G-RV6CQD1Z84"
+            };
+            firebase.initializeApp(config);
+            const db = firebase.firestore();
+            db.settings({ timestampsInSnapshots: true }); 
+        </script>
+        <script src="journal.js"></script>
+    </body>
+</html>
