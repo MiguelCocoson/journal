@@ -2,7 +2,7 @@
 
 I created this database and website because I think the traditional way of writing a journal on paper is not very efficiant anymore. Thorugh this website people can keep a journal without fear of loosing their journal and been able to make corrections to their entries very easy.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/zz4hkVYVYRI)
 
 # Cloud Database
 
